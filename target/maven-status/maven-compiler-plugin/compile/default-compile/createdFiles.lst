@@ -1,0 +1,10 @@
+edu/matc/api/RestApplication.class
+edu/matc/entity/Author.class
+edu/matc/controller/SearchUsers.class
+edu/matc/entity/User.class
+edu/matc/persistence/AuthorDao.class
+edu/matc/persistence/BookDao.class
+edu/matc/persistence/UserDao.class
+edu/matc/entity/Book.class
+edu/matc/api/RestService.class
+edu/matc/persistence/SessionFactoryProvider.class

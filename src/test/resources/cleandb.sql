@@ -1,0 +1,5 @@
+delete from author;
+INSERT INTO author VALUES (1,'Jacob','Sierra'),(2,'Herbert','Schilt'),(3,'Joseph','Ottinger');
+DROP TABLE IF EXISTS book;
+CREATE TABLE book (`id` int(11) NOT NULL AUTO_INCREMENT, `title` varchar(70) DEFAULT NULL, `author_id` int(11) DEFAULT NULL, `isbn` varchar(25) DEFAULT NULL, `publication_year` int(11) DEFAULT NULL, PRIMARY KEY (`id`), UNIQUE KEY `book_id_uindex` (`id`), UNIQUE KEY `book_isbn_uindex` (`isbn`), KEY `book_author_id_fk` (`author_id`), CONSTRAINT `book_author_id_fk` FOREIGN KEY (`author_id`) REFERENCES `author` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=latin1;
+INSERT INTO book (id, title, author_id, isbn, publication_year) VALUES (1,'Head First Java, 2nd Edition', 1,'978-0596009205',2005),(2,'Beginning Hibernate', 1, '978-1-4842-2319-2',2016),(3,'Java: A Beginner’s Guide (Sixth Edition)', 2,'978-0071809252',2014);

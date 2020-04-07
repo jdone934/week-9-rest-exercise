@@ -1,0 +1,4 @@
+edu/matc/persistence/AuthorDaoTest.class
+edu/matc/persistence/BookDaoTest.class
+edu/matc/testUtils/Database.class
+edu/matc/api/RestServiceTest.class
