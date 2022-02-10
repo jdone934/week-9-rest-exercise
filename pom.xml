@@ -8,7 +8,7 @@
   <name>week-9-rest-exercise Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
-    <hibernate-version>5.4.4.Final</hibernate-version>
+    <hibernate-version>5.4.24.Final</hibernate-version>
     <javax.version>7.0</javax.version>
     <jstl-version>1.2</jstl-version>
     <junit-platform-runner-version>1.0.0</junit-platform-runner-version>
